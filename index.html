@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Koni's Local Weather App</title>
+<meta name="description" content="Local Weather App"/>
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta charset="utf-8"/>
+<!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/styles.css"> 
+   <script>var keyapi = "AIzaSyBEWnQz7jULsv5lk4vLwxh2jATivfQnFJQ";</script>
+</head>
+<body>
+<div id="columnContent" class="container-fluid pull-center text-center">
+
+<h1>Local Weather in <span id="locat"></span></h1>
+
+<div>
+<span id="type" class="temperature pull-center"></span>
+</div>
+
+
+<button id="temp" class="tmp btn btn-md btn-info"></button>
+
+
+<div class="wind pull-center row"><h2>Winds are coming from <span id="wind"> </span> at <span id="wind_spd"> </span> MPH</h2></div>
+
+
+<div class="lnx">
+
+  <div class="prt col-sm-4"><a href="https://konikodes.github.io/Portfolio" title="Return to Portflio" target="_blank"><img src="https://www.konikodes.com/fcc/img/porthome.png" alt="Return to Portfolio Home"><small>Return to Portfolio Home </small></a></div>
+<div class="wuimg col-sm-4"><a href="https://www.wunderground.com/" title="Thank you Wunderground" target="_blank"><img src="https://www.konikodes.com/fcc/img/wulogo.jpg" alt="wunderground logo"></a></div>
+
+  <div class="pwrd col-sm-4"><a href="http://www.konikodes.com" target="_blank"><small>powered by </small><img src="https://www.konikodes.com/fcc/img/kico.png" alt="Koni Kodes Logo"></a></div><br/>
+
+  </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=keyapi&libraries=places" type="text/javascript"></script>
+	          <script type="text/javascript" src="js/script.js"></script>
+</div>
+</body>
+</html>
